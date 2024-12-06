@@ -12,7 +12,7 @@ describe('CT001 - cadastro-user', () => {
       cy.get('[data-testid="nome"]').type('adir souza');
   
       // Passo 3: Preencher o campo de email com um email não cadastrado 
-      cy.get('input[type="email"]').type('souzatechconsult@gmail.com');  
+      cy.get('input[type="email"]').type('souzatechconsult@gmail.com');  // adicionar um Email Não cadastrado
 
       // Passo 4: Preencher o campo de senha
       cy.get('input[type="password"]').type('senha123');
